@@ -2,7 +2,7 @@ So basically I wanted to rewrite my old notes (for like the third time) and deci
 
 # Contents
 - [First Steps](/OOP/Lectures/Lecture1.md)
-          === Coming Soon™ ===
+- === Coming Soon™ ===
 - Programming Structures
 - Methods
 - Classes
