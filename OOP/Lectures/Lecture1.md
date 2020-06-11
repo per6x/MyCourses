@@ -64,7 +64,7 @@
     // In all cases hi is incremented by 1
 
     /* Side Note
-    If you increment a value inside of an expression (for example inside a print command) the hi++ statement will be evaluated AFTER the print. This means that while in the end the value will be incremented, that wont be the case in the printed value, you can use ++hi to avoid this, see example later
+    If you increment a value inside of an expression (for example inside a print command) the hi++ statement will be evaluated AFTER the print. This means that while in the end the value will be incremented, that wont be the case in the printed value, you can use ++hi to avoid this, see example later. Keep in mind that both of these change the initial value of hi unlike doing hi + 1 (againt see next snippet for example)
     */
     ```
 
@@ -78,8 +78,8 @@
 
     System.out.println("Hello, World"!); // <Hello, World!>
     System.out.println(num + 1); // <5>
-    System.out.println(num++); //<4>
-    System.out.println(++num); //<5> 
+    System.out.println(num++); //<4> (unm is now 5)
+    System.out.println(++num); //<6> 
     System.out.println(yes + "xdd"); // <yes xdd>
     ```
 
