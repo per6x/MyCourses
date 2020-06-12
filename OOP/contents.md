@@ -1,7 +1,7 @@
 # Contents
 - [First Steps](/OOP/Lectures/Lecture1.md)
+- [Programming Structures](/OOP/Lectures/Lecture2.md)
 - === Coming Soon™ ===
-- Programming Structures
 - Methods
 - Classes
 - Arrays
