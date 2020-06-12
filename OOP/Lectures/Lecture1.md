@@ -1,5 +1,12 @@
 # Data & Operations
 
+## Contents
+[Primitive Data Types](#Primitive-Data-Types)\
+[Declaration and initialisation](#Declaration-and-initialisation)\
+[Operators](#Operators)\
+[Printing and Stuff](#Printing-and-Stuff)\
+[Your First Java Program](#Your-First-Java-Program)
+
 - ## Data
 
     ### Primitive Data Types
