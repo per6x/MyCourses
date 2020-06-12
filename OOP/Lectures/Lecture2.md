@@ -212,8 +212,8 @@
      Exercise solutions can be found [here](/OOP/Exercises/Solutions/Lecture2.java).
 
      I came up with the solutions in like 5 minutes so there's a good chance that they can be implemented better
-     but that's not really my goal right now so idc./
+     but that's not really my goal right now so idc.
 
-     When we learn about methods (so next lecture) I'll *probably* start writing tests which you will be able to run to check if your method was implemented correctly\
+     When we learn about methods (so next lecture) I'll *probably* start writing tests which you will be able to run to check if your method was implemented correctly
 
      I highly encourage you to take 5-10 minutes to solve each exercise before looking at the solutions
