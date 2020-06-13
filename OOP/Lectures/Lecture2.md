@@ -111,16 +111,21 @@
         // this is ugly asf but yes
         
         switch (num) {
-           case 10:
-               numString = "Ten";
-               break; // This break makes sure to hault execution if the case is satisfied
-           case 5:
-               numString = "this could be anywhere from nine to five";
-               break;
-           default:
-               numString = "None of the cases were satisfied :(";
+            case 10:
+                numString = "Ten";
+                break; // This break makes sure to hault execution if the case is satisfied
+            case 9:
+            case 8:
+            case 6:
+            case 5:
+                numString = "this could be anywhere from nine to five but not 7";
+                break;
+            default:
+                numString = "None of the cases were satisfied :(";
         }
         ```
+
+        Note how if we were to omit the break from lets say case 10 the execution would continue meaning we would also get either case 5 or the default case executed as well
         
 - ## Iteration
 
