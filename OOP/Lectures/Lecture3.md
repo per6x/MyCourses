@@ -218,6 +218,6 @@ Disclaimer: I might call methods ``functions`` in this lecture, they are the sam
 - ## Exercises
 
     Exercise blueprints can be found [here](/OOP/Exercises/Blueprints/Lecture3.java).\
-    Exercise solutions can be found [here](/OOP/Exercises/Solutions/Lecture3.java).\
+    Exercise solutions can be found [here](/OOP/Exercises/Solutions/Lecture3.java).
 
     Since we are now working with methods we can utilize tests to test the implementations. You can easily run the tests through Intellij the same way you would run main(). Solutions are again provided.
