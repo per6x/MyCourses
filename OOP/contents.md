@@ -1,8 +1,8 @@
 # Contents
 - [First Steps](/OOP/Lectures/Lecture1.md)
 - [Programming Structures](/OOP/Lectures/Lecture2.md)
+- [Methods](/OOP/Lectures/Lecture3.md)
 - === Coming Soon™ ===
-- Methods
 - Classes
 - Arrays
 - Unit Tests
