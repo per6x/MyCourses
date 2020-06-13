@@ -1,7 +1,7 @@
 ## Contents
-[More Operators](#More-Operators)
-[Selection](#Selection)
-[Iteration](#Iteration)
+[More Operators](#More-Operators)\
+[Selection](#Selection)\
+[Iteration](#Iteration)\
 [Exercises](#Exercises)
 
 
