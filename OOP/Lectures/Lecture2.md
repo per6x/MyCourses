@@ -99,6 +99,17 @@
         } else
             <No condition was checked, this is the 'default' outcome if the previous 2 ifs are not satisfied>
         ```
+
+        In java there is a shorter way of writting an If statement using whats called the **Ternary Operator**.
+
+        ```java
+        if (<condition>)
+            <statement1>;
+        else
+            <statement2>;
+
+        <condition> ? <statement1> : <statement2>;
+        ```
         
     - ## Switch statement
     
