@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93ac417b-e2de-4b77-9315-34be18eced97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/MyCourses.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyCourses.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP/contents.md" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/contents.md" afterDir="false" />
     </list>
@@ -10,6 +9,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="111" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,92 +51,110 @@
       <recent name="C:\Users\anton\OneDrive\Documents\GitHub\MyCourses\OOP\Exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BL3T (1)">
-    <configuration name="BL3T (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CounterTests and 1 more">
+    <configuration name="CounterTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyCourses" />
       <extension name="coverage">
         <pattern>
+          <option name="PATTERN" value="Blueprints.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Blueprints" />
+      <option name="MAIN_CLASS_NAME" value="Blueprints.CounterTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CounterTests and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyCourses" />
+      <useClassPathOnly />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="Solutions.Counter" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="Solutions.Point" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <option name="PARAMETERS" value="" />
+      <patterns>
+        <pattern testClass="Solutions.CounterTests" />
+        <pattern testClass="Solutions.PointTests" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CounterTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyCourses" />
+      <useClassPathOnly />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
           <option name="PATTERN" value="Solutions.*" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="Solutions.Counter" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Solutions" />
-      <option name="MAIN_CLASS_NAME" value="Solutions.BL3T" />
+      <option name="MAIN_CLASS_NAME" value="Solutions.CounterTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CounterTests,addTest0 and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyCourses" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="Blueprints.CounterTests,addTest0" />
+        <pattern testClass="Blueprints.CounterTests,addTest1(int,int)" />
+        <pattern testClass="Blueprints.CounterTests,toStringTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PointTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyCourses" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Blueprints.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Blueprints" />
+      <option name="MAIN_CLASS_NAME" value="Blueprints.PointTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BL3T" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyCourses" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Blueprints.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Blueprints" />
-      <option name="MAIN_CLASS_NAME" value="Blueprints.BL3T" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BL3T.isEvenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyCourses" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Blueprints.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Blueprints" />
-      <option name="MAIN_CLASS_NAME" value="Blueprints.BL3T" />
-      <option name="METHOD_NAME" value="isEvenTest(boolean,int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BL3T.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyCourses" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Blueprints.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Blueprints" />
-      <option name="MAIN_CLASS_NAME" value="Blueprints.BL3T" />
-      <option name="METHOD_NAME" value="test1(int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BL3T.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyCourses" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Blueprints.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Blueprints" />
-      <option name="MAIN_CLASS_NAME" value="Blueprints.BL3T" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="JUnit.CounterTests" />
+      <item itemvalue="JUnit.CounterTests,addTest0 and 2 more" />
+      <item itemvalue="JUnit.CounterTests (1)" />
+      <item itemvalue="JUnit.PointTests" />
+      <item itemvalue="JUnit.CounterTests and 1 more" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BL3T (1)" />
-        <item itemvalue="JUnit.BL3T.isEvenTest" />
-        <item itemvalue="JUnit.BL3T" />
-        <item itemvalue="JUnit.BL3T.test1 (1)" />
-        <item itemvalue="JUnit.BL3T.test1" />
+        <item itemvalue="JUnit.CounterTests and 1 more" />
+        <item itemvalue="JUnit.CounterTests" />
+        <item itemvalue="JUnit.PointTests" />
+        <item itemvalue="JUnit.CounterTests,addTest0 and 2 more" />
+        <item itemvalue="JUnit.CounterTests (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +175,7 @@
       <workItem from="1591976470119" duration="191000" />
       <workItem from="1592048593721" duration="4227000" />
       <workItem from="1592052922522" duration="219000" />
+      <workItem from="1592141148662" duration="6522000" />
     </task>
     <servers />
   </component>
@@ -166,10 +187,18 @@
       <screen x="1920" y="51" width="1280" height="984" />
     </state>
     <state x="2152" y="201" key="#Project_Structure/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1591976447840" />
-    <state x="2014" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592049875158">
+    <state x="2014" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592209712997">
       <screen x="1920" y="51" width="1280" height="984" />
     </state>
-    <state x="2014" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592049875158" />
+    <state x="2014" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592209712997" />
+    <state x="2365" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1592206303068">
+      <screen x="1920" y="51" width="1280" height="984" />
+    </state>
+    <state x="2365" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592206303068" />
+    <state x="2289" y="327" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1592209711951">
+      <screen x="1920" y="51" width="1280" height="984" />
+    </state>
+    <state x="2289" y="327" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592209711951" />
     <state x="2403" y="432" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1591976354171">
       <screen x="1920" y="51" width="1280" height="984" />
     </state>
@@ -182,22 +211,22 @@
       <screen x="1920" y="51" width="1280" height="984" />
     </state>
     <state x="2235" y="252" key="FileChooserDialogImpl/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1591976630139" />
-    <state width="1237" height="243" key="GridCell.Tab.0.bottom" timestamp="1592053132485">
+    <state width="1237" height="243" key="GridCell.Tab.0.bottom" timestamp="1592209725627">
       <screen x="1920" y="51" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592053132485" />
-    <state width="1237" height="243" key="GridCell.Tab.0.center" timestamp="1592053132485">
+    <state width="1237" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592209725627" />
+    <state width="1237" height="243" key="GridCell.Tab.0.center" timestamp="1592209725627">
       <screen x="1920" y="51" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.center/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592053132485" />
-    <state width="1237" height="243" key="GridCell.Tab.0.left" timestamp="1592053132485">
+    <state width="1237" height="243" key="GridCell.Tab.0.center/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592209725627" />
+    <state width="1237" height="243" key="GridCell.Tab.0.left" timestamp="1592209725627">
       <screen x="1920" y="51" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.left/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592053132485" />
-    <state width="1237" height="243" key="GridCell.Tab.0.right" timestamp="1592053132485">
+    <state width="1237" height="243" key="GridCell.Tab.0.left/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592209725627" />
+    <state width="1237" height="243" key="GridCell.Tab.0.right" timestamp="1592209725627">
       <screen x="1920" y="51" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.right/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592053132485" />
+    <state width="1237" height="243" key="GridCell.Tab.0.right/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592209725627" />
     <state x="2040" y="117" key="SettingsEditor" timestamp="1592052564770">
       <screen x="1920" y="51" width="1280" height="984" />
     </state>
@@ -210,5 +239,17 @@
       <screen x="1920" y="51" width="1280" height="984" />
     </state>
     <state x="2223" y="262" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592052549209" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MyCourses$CounterTests__1_.ic" NAME="CounterTests (1) Coverage Results" MODIFIED="1592209351981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Blueprints.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/MyCourses$CounterTests_and_1_more.ic" NAME="CounterTests and 1 more Coverage Results" MODIFIED="1592209714082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Solutions.Counter</FILTER>
+      <FILTER>Solutions.Point</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/MyCourses$CounterTests.ic" NAME="CounterTests Coverage Results" MODIFIED="1592209655587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Solutions.Counter</FILTER>
+    </SUITE>
   </component>
 </project>

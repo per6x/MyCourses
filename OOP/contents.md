@@ -2,8 +2,8 @@
 - [First Steps](/OOP/Lectures/Lecture1.md)
 - [Programming Structures](/OOP/Lectures/Lecture2.md)
 - [Methods](/OOP/Lectures/Lecture3.md)
+- [Classes](/OOP/Lectures/Lecture4.md)
 - === Coming Soon™ ===
-- Classes
 - Arrays
 - Unit Tests
 - Container Classes
