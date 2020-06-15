@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="93ac417b-e2de-4b77-9315-34be18eced97" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/contents.md" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/contents.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Exercises/Blueprints/Lecture4.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/Blueprints/Lecture4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Exercises/Solutions/Lecture4.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/Solutions/Lecture4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="111" />
+    <option name="myElementSize" value="235" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -176,6 +177,8 @@
       <workItem from="1592048593721" duration="4227000" />
       <workItem from="1592052922522" duration="219000" />
       <workItem from="1592141148662" duration="6522000" />
+      <workItem from="1592210631509" duration="222000" />
+      <workItem from="1592211336730" duration="775000" />
     </task>
     <servers />
   </component>
@@ -211,26 +214,30 @@
       <screen x="1920" y="51" width="1280" height="984" />
     </state>
     <state x="2235" y="252" key="FileChooserDialogImpl/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1591976630139" />
-    <state width="1237" height="243" key="GridCell.Tab.0.bottom" timestamp="1592209725627">
+    <state width="1237" height="243" key="GridCell.Tab.0.bottom" timestamp="1592212066693">
       <screen x="1920" y="51" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592209725627" />
-    <state width="1237" height="243" key="GridCell.Tab.0.center" timestamp="1592209725627">
+    <state width="1237" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592212066693" />
+    <state width="1237" height="243" key="GridCell.Tab.0.center" timestamp="1592212066693">
       <screen x="1920" y="51" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.center/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592209725627" />
-    <state width="1237" height="243" key="GridCell.Tab.0.left" timestamp="1592209725627">
+    <state width="1237" height="243" key="GridCell.Tab.0.center/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592212066693" />
+    <state width="1237" height="243" key="GridCell.Tab.0.left" timestamp="1592212066692">
       <screen x="1920" y="51" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.left/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592209725627" />
-    <state width="1237" height="243" key="GridCell.Tab.0.right" timestamp="1592209725627">
+    <state width="1237" height="243" key="GridCell.Tab.0.left/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592212066692" />
+    <state width="1237" height="243" key="GridCell.Tab.0.right" timestamp="1592212066693">
       <screen x="1920" y="51" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.right/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592209725627" />
+    <state width="1237" height="243" key="GridCell.Tab.0.right/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592212066693" />
     <state x="2040" y="117" key="SettingsEditor" timestamp="1592052564770">
       <screen x="1920" y="51" width="1280" height="984" />
     </state>
     <state x="2040" y="117" key="SettingsEditor/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592052564770" />
+    <state width="600" height="440" key="ShowTestsPopup" timestamp="1592211606028">
+      <screen x="1920" y="51" width="1280" height="984" />
+    </state>
+    <state width="600" height="440" key="ShowTestsPopup/0.0.1536.824/1920.51.1280.984@1920.51.1280.984" timestamp="1592211606028" />
     <state x="2264" y="431" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1592048785414">
       <screen x="1920" y="51" width="1280" height="984" />
     </state>
@@ -244,7 +251,7 @@
     <SUITE FILE_PATH="coverage/MyCourses$CounterTests__1_.ic" NAME="CounterTests (1) Coverage Results" MODIFIED="1592209351981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Blueprints.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/MyCourses$CounterTests_and_1_more.ic" NAME="CounterTests and 1 more Coverage Results" MODIFIED="1592209714082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/MyCourses$CounterTests_and_1_more.ic" NAME="CounterTests and 1 more Coverage Results" MODIFIED="1592212062164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
       <FILTER>Solutions.Counter</FILTER>
       <FILTER>Solutions.Point</FILTER>
     </SUITE>

@@ -18,6 +18,8 @@ Methods:
         Returns the current count
     toString(): String
         Returns "Counter: ${number}"
+    reset(): void
+        Resets the count to zero
  */
 class Counter {
     private static int count;
@@ -39,6 +41,10 @@ class Counter {
 
     public String toString() {
         return "Counter: " + count;
+    }
+
+    public void reset() {
+        count = 0;
     }
 }
 
@@ -118,21 +124,31 @@ class CounterTests {
         c1.add();
 
         assertEquals(1, c1.getCount());
+
+        c1.reset();
     }
 
     @ParameterizedTest
-    @CsvSource({"1, 2", "2, 4", "-1, 4", "0, 4"})
+    @CsvSource({"1, 1", "2, 2", "-1, 0", "0, 0"})
     public void addTest1(int i, int j) {
-        System.out.println(c1.toString());
         c1.add(i);
-        System.out.println(c1.toString());
 
         assertEquals(j, c1.getCount());
+
+        c1.reset();
     }
 
     @Test
     public void toStringTest() {
-        assertEquals("Counter: 4", c1.toString());
+        assertEquals("Counter: 0", c1.toString());
+    }
+
+    @Test
+    public void resetTest() {
+        c1.add();
+        assertEquals(1, c1.getCount());
+        c1.reset();
+        assertEquals(0, c1.getCount());
     }
 }
 
@@ -181,11 +197,18 @@ class PointTests {
     @Test
     public void equalsTest() {
         Point p1 = new Point(1, 2);
-        Point p2 = new Point(2, 2);
+        Point p2 = new Point(1, 3);
         Point p3 = p;
+        Point p4 = new Point(2, 2);
+
+
 
         assertEquals(p, p1);
-        assertNotEquals(p, p2);
+
         assertEquals(p, p3);
+        assertNotEquals(p, new Object());
+
+        assertNotEquals(p, p4);
+        assertNotEquals(p, p2);
     }
 }
