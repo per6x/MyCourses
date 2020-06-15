@@ -10,16 +10,23 @@
 - ## Data
 
     ### Primitive Data Types
-
-    Integers: ```int``` (-5, 2, 2^31 - 1)\
-    Real Numbers: ```float/double``` (-0.42, 0.30000000000000004)\
-    Characters: ```char``` ('b', 'r', 'u', 'h')
+    These are ordered from the least to most bits. In most cases, you will be using `int`s, `double`s and `boolean`s when working with Java. However, it is important to know all 8 primitive types.
+    Name | Description | Size in Memory | Default Value | Examples
+    -- | -- | -- | -- | --
+    boolean | true or false| 1 bit | `false` |`true` or `false`
+    byte | a tiny number | 8 bits | 0 | -128, 19, 127
+    short | a small number | 16 bits | 0 | 1234, 30420
+    char | a Unicode character | 16 bits | '\u0000' | 'b', 'r', 'u', 'h'
+    int | a number | 32 bits | 0 | 1234567, -420666
+    float | a (less) precise floating point decimal | 32 bits | 0.0F | 3.141, -0.42
+    long | a large number | 64 bits | 0L | 123456789000
+    double | a (more) precise floating point decimal | 64 bits | 0.0D | 0.30000000000000004
 
     ### Declaration and initialisation
 
     ```java
     // Declaration
-    int num;
+    int num; // Here it will have the default value shown in the table above
 
     // Assignment
     num = 4;
@@ -85,15 +92,15 @@
 
     System.out.println("Hello, World"!); // <Hello, World!>
     System.out.println(num + 1); // <5>
-    System.out.println(num++); //<4> (unm is now 5)
-    System.out.println(++num); //<6> 
+    System.out.println(num++); // <4> (num is now 5)
+    System.out.println(++num); // <6> 
     System.out.println(yes + "xdd"); // <yes xdd>
     ```
 
     ### Your First Java Program
 
     ```java
-    public class idk {
+    public class IDK {
         public static void main(String[] args) {
             System.out.println("Hello, World!");
         }
