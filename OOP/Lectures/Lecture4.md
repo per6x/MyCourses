@@ -73,7 +73,7 @@ Let's break it down
     - ``Point``: Class name, start with capital letters by convention
     - ``(double passedX, double passedY)``: Forces the user to pass 2 doubles when instantiating the class (simple parameters)
 - ``private double x/y;``: These two are class attributes, values that the object has. Most of the time you want these to be private meaning only this specific class has access to them. This is done so as to prevent the attributes getting edited by random classes by accident or intentionally (security risk), this is called encapsulation
-- ``The constructor``: The next 3 lines are a special method called the costructor. What that does is it takes the passed parameters ``passedX, passedY`` and assigns them to the local private variables. More often than not you will see people write constructors like this:
+- ``The constructor``: The next 3 lines are a special method called the costructor. What that does is it takes the passed parameters ``passedX, passedY`` and assigns them to the local private variables. Everytime the ``new`` keyword is used, the constructor function is called. More often than not you will see people write constructors like this:
     ```java
         public Point(double x, double y) {
             this.x = x;
