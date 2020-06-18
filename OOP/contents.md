@@ -3,8 +3,8 @@
 - [Programming Structures](/OOP/Lectures/Lecture2.md)
 - [Methods](/OOP/Lectures/Lecture3.md)
 - [Classes](/OOP/Lectures/Lecture4.md)
+- [Arrays](/OOP/Lectures/Lecture5.md)
 - === Coming Soon™ ===
-- Arrays
 - Unit Tests
 - Container Classes
 - Class Composition
