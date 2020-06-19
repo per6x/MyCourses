@@ -67,19 +67,19 @@ Methods:
         Returns true iff p2 is a point and has the same coordinates with this
  */
 class Point {
-    private int x;
-    private int y;
+    private double x;
+    private double y;
 
     public Point(int x, int y) {
         this.x = x;
         this.y = y;
     }
 
-    public int getX() {
+    public double getX() {
         return x;
     }
 
-    public int getY() {
+    public double getY() {
         return y;
     }
 
@@ -190,7 +190,7 @@ class PointTests {
 
     @Test
     public void toStringTest() {
-        String res = "x: " + 1 + ", y: " + 2;
+        String res = "x: 1.0, y: 2.0";
         assertEquals(res, p.toString());
     }
 
