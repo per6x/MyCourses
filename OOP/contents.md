@@ -4,8 +4,8 @@
 - [Methods](/OOP/Lectures/Lecture3.md)
 - [Classes](/OOP/Lectures/Lecture4.md)
 - [Arrays](/OOP/Lectures/Lecture5.md)
+- [Unit Tests](/OOP/Lectures/Lecture6.md)
 - === Coming Soon™ ===
-- Unit Tests
 - Container Classes
 - Class Composition
 - Inheritance
